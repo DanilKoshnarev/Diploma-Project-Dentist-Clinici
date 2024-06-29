@@ -1,0 +1,207 @@
+.bunner {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.img-bunner{
+    box-shadow: 0px 3px 20px black;
+}
+
+.img-bunner img {
+    width: 100%;
+    height: auto;
+}
+
+.main-bunner{
+    text-shadow: 3px 3px 5px black;
+    font-family: "Jura"
+}
+
+.second-bunner{
+    text-shadow: 3px 3px 5px black;
+    font-family: "Jura"
+}
+
+.bunner-text {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: white;
+    text-align: left;
+}
+
+.main-bunner {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.second-bunner {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main{
+    gap: 20px;
+}
+
+
+.prices-div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+
+.cart-inf{
+    display: flex;
+    width: 100%;
+    border: 5px solid black;
+    background-color: #A1E4FA;
+}
+
+.text-inf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.name-inf{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border-right: 5px solid black;
+}
+.name-inf p{
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+
+.price-inf{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.price-inf p{
+    text-align: center;
+    font-size: 38px;
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    width: 100%;
+}
+
+.category{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5px;
+    padding: 0;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+}
+
+.category-text{
+    font-size: 42px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.servicec{
+    border-bottom: 5px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 0;
+}
+
+.name{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border-right: 1px solid black;
+}
+
+.name p{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    width: 100%;
+    text-align: start;
+    padding-left: 1%;
+}
+
+
+.price{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price p{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+
+@media (max-width: 900px) {
+    .main-bunner{
+        font-size: calc(1.2rem + .9vw) !important;
+    }
+    .second-bunner{
+        font-size: calc(1.1rem + .6vw) !important;
+    }
+}
+@media (max-width: 660px) {
+    .prices-div{
+        width: 90%;
+    }
+    .main-bunner{
+        font-size: calc(1.1rem + .9vw) !important;
+    }
+    .second-bunner{
+        font-size: calc(1rem + .6vw) !important;
+    }
+}
+
+@media (max-width: 610px) {
+    .prices-div{
+        width: 90%;
+    }
+    .main-bunner{
+        font-size: calc(1.1rem + .9vw) !important;
+    }
+    .second-bunner{
+        font-size: calc(0.7rem + .6vw) !important;
+    }
+}

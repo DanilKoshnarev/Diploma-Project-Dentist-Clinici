@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Контакти
+{% endblock %}
+
+{% block links %}
+<link rel="stylesheet" href="{% static 'static_apps/css/contacts.css' %}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+
+<iframe id="card" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.4317023500835!2d35.056404076648505!3d48.44824597127946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe32baba70def%3A0xe5ca0dfcf2164d15!2z0KHRgtC-0LzQsNGC0L7Qu9C-0LPQuNGH0LXRgdC60LjQuSDRhtC10L3RgtGAICLQl9C00L7RgNC-0LLQsNGPINGD0LvRi9Cx0LrQsCI!5e0!3m2!1suk!2sua!4v1718183846961!5m2!1suk!2sua" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="container mt-5">
+    <h2>Контакти клініки</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="class1">
+          <h3 align="center">&#128205;Адреса</h3>
+          <p align="center">Вул. Глобинська 1</p>
+        </div>
+        <div class="class1">
+          <h3 align="center">&#128336;Години роботи</h3>
+          <p align="center">Пн.-Нд. з 08:00 до 20:00</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="class1">
+          <h3 align="center">&#128222;Телефон</h3>
+          <p align="center">+38 (063) 480 70 42</p>
+        </div>
+        <div class="class1">
+          <h3 align="center">&#128231;Email</h3>
+          <p align="center">zdorova_posmishka@gmail.com</p>
+        </div>
+      </div>
+    </div>
+  <h4>Також ви можете заповнити онлайн-форму на нашому сайті, і ми зв'яжемося з вами найближчим часом.</h4>
+  </div>
+{% endblock %}

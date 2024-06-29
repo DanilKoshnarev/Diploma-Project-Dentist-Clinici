@@ -1,0 +1,88 @@
+body {
+    overflow-x: hidden;
+}
+
+h2 {
+    font-size: 30px;
+    color: black;
+    margin-bottom: 20px;
+    font-family: "Ledger", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 20px;
+}
+
+img{
+    width: 900px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;;
+}
+
+#img1 img{
+    margin-right: 755px;
+    border-bottom-right-radius: 50px;
+}
+
+#img2 img {
+    margin-left: 650px;
+    border-bottom-left-radius: 50px;
+}
+
+#img3 img {
+    margin-right: 620px;
+    border-bottom-right-radius: 50px;
+}
+
+#img4 img {
+    margin-left: 740px;
+    border-bottom-left-radius: 50px;
+}
+
+#img6 img{
+    margin-left: 620px;
+    border-bottom-left-radius: 50px;
+}
+
+#img5 img,
+#img7 img {
+    margin-right: 840px;
+    border-bottom-right-radius: 50px;
+}
+
+#img8 img {
+    margin-left: 930px;
+    border-bottom-left-radius: 50px;
+}
+
+h3{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+#img1,
+#img2,
+#img3,
+#img4,
+#img5,
+#img6,
+#img7,
+#img8{
+    display: flex;
+    align-items: center;
+}
+
+li {
+    font-size: 22px;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin-bottom: 10px;
+}
